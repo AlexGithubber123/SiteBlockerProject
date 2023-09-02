@@ -1,0 +1,30 @@
+body {
+    background-image: url('images/dope.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* This scales the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    /* You can add more styles for your content, fonts, etc. */
+    text-align: center;
+    color: white;
+}
+
+body h1{
+    padding: 3%;
+    font-size: x-large;
+}
+
+blockquote {
+margin-top: 13%;
+padding-left: 30%;
+padding-right: 22%;
+}
+
+blockquote p{
+    font-size: x-large;
+    font-style: italic;
+}
+
+blockquote footer{
+    font-size: large;
+    padding-left: 65%;
+}

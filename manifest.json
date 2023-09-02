@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Motivated Site Blocker",
+    "version": "1.0",
+    "description": "A plain text description",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.facebook.com/*",
+                "*://www.netflix.com/*",
+                "*://www.reddit.com/*"
+            ],
+            "js":
+             ["content.js"]
+        }
+    ],
+    
+    "action": {
+        "default_popup": "block.html"
+    }
+}
